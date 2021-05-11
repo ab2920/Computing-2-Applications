@@ -113,4 +113,6 @@ game_2048.right = (board) => h_flip(game_2048.left(h_flip(board)));
 game_2048.up = identity;
 game_2048.down = identity;
 
+// test
+
 export default Object.freeze(game_2048);
